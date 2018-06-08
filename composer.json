@@ -1,0 +1,20 @@
+{
+    "name": "adrpina/cybersource",
+    "description": "CyberSource Web Services laravel port",
+    "type": "library",
+    "license": "MIT License",
+    "authors": [
+        {
+            "name": "Adrian Piña",
+            "email": "adrianxplay@gmail.com"
+        }
+    ],
+    "require": {},
+    "extra": {
+      "laravel": {
+        "providers": [
+          "Adrianxplay\\Cybersource\\ServiceProvider"
+        ]
+      }
+    }
+}
