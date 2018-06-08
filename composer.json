@@ -15,7 +15,7 @@
     "extra": {
       "laravel": {
         "providers": [
-          "Adrianxplay\\Cybersource\\ServiceProvider"
+          "Adrianxplay\\Cybersource\\CybersourceServiceProvider"
         ]
       }
     },
