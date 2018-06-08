@@ -19,5 +19,6 @@
           "Adrianxplay\\Cybersource\\ServiceProvider"
         ]
       }
-    }
+    },
+    "minimum-stability": "dev"
 }
