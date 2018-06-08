@@ -1,7 +1,7 @@
 {
     "name": "adrianxplay/cybersource",
     "description": "CyberSource Web Services laravel port",
-    "type": "composer-plugin",
+    "type": "package",
     "license": "MIT License",
     "authors": [
         {
