@@ -1,7 +1,7 @@
 {
-    "name": "adrpina/cybersource",
+    "name": "adrianxplay/cybersource",
     "description": "CyberSource Web Services laravel port",
-    "type": "library",
+    "type": "composer-plugin",
     "license": "MIT License",
     "authors": [
         {
@@ -19,5 +19,6 @@
           "Adrianxplay\\Cybersource\\ServiceProvider"
         ]
       }
-    }
+    },
+    "minimum-stability": "dev"
 }
