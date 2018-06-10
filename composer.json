@@ -9,11 +9,6 @@
             "email": "adrianxplay@gmail.com"
         }
     ],
-    "autoload": {
-      "psr-4": {
-        "Adrianxplay\\CyberSource\\": "src/"
-      }
-    },
     "require": {
       "php": ">=7.1"
     },
