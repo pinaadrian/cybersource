@@ -15,7 +15,7 @@ class CybersourceServiceProvider extends ServiceProvider
     {
       $this->publishes([
           __DIR__.'/conf/cybersource.php' => config_path('cybersource.php'),
-      ]);
+      ], 'cybersource');
     }
 
     /**
