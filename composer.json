@@ -2,7 +2,7 @@
     "name": "pinaadrian/cybersource",
     "description": "CyberSource Web Services laravel port",
     "type": "package",
-    "license": "MIT License",
+    "license": "MIT",
     "authors": [
         {
             "name": "Adrian Piña",
