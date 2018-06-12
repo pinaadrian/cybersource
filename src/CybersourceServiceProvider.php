@@ -1,6 +1,6 @@
 <?php
 
-namespace Adrianxplay\Cybersource;
+namespace Pinaadrian\Cybersource;
 
 use Illuminate\Support\ServiceProvider;
 
