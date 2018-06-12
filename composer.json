@@ -1,17 +1,17 @@
 {
-    "name": "adrianxplay/cybersource",
+    "name": "pinaadrian/cybersource",
     "description": "CyberSource Web Services laravel port",
     "type": "package",
     "license": "MIT License",
     "authors": [
         {
             "name": "Adrian Piña",
-            "email": "adrianxplay@gmail.com"
+            "email": "adrian.pina@nurun.mx"
         }
     ],
     "autoload": {
       "psr-0": {
-        "Adrianxplay\\Cybersource\\": "src"
+        "Pinaadrian\\Cybersource\\": "src"
       }
     },
     "require": {
@@ -20,7 +20,7 @@
     "extra": {
       "laravel": {
         "providers": [
-          "Adrianxplay\\Cybersource\\CybersourceServiceProvider"
+          "Pinaadrian\\Cybersource\\CybersourceServiceProvider"
         ]
       }
     },
