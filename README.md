@@ -6,11 +6,11 @@ The CyberSource library can be found [here](https://github.com/CyberSource/cyber
 
 
 ## Install with composer
-The code is available at [Packagist](https://packagist.org/packages/adrianxplay/cybersource).
+The code is available at [Packagist](https://packagist.org/packages/pinaadrian/cybersource).
 If you want to install SDK from Packagist, use the following command to add the
 dependency to your app.
 ```
-composer require adrianxplay/cybersource
+composer require pinaadrian/cybersource
 ```
 
 ## Prerequisites
@@ -46,7 +46,7 @@ The PHP client will generate the request message headers for you, and will conta
 The main method you'll use is ````runTransaction()````. To run a transaction, you'll first need to construct a client to generate a request object, which you can populate with the necessary fields (see [documentation](http://www.cybersource.com/developers/integration_methods/simple_order_and_soap_toolkit_api/soap_api/html/wwhelp/wwhimpl/js/html/wwhelp.htm#href=Intro.04.4.html) for sample requests). The object will be converted into XML, so the properties of the object will need to correspond to the correct XML format.
 
 ```php
-use Adrianxplay\Cybersource\CybsSoapClient;
+use Pinaadrian\Cybersource\CybsSoapClient;
 
 $referenceCode = 'reference_code';
 $client = new CybsSoapClient();
@@ -67,7 +67,7 @@ $response = $client->runTransaction($request);
 You can create a request from XML either in a file or from an XML string. The XML request format is described in the **Using XML** section [here](http://apps.cybersource.com/library/documentation/dev_guides/Simple_Order_API_Clients/Client_SDK_SO_API.pdf). Here's how to run a transaction from an XML file:
 
 ```php
-use Adrianxplay\Cybersource\CybsSoapClient;
+use Pinaadrian\Cybersource\CybsSoapClient;
 
 $referenceCode = 'your_merchant_reference_code';
 $client = new CybsSoapClient();
@@ -77,7 +77,7 @@ $reply = $client->runTransactionFromFile('path/to/my.xml', $referenceCode);
 Or, you can create your own XML string and use that instead:
 
 ```php
-use Adrianxplay\Cybersource\CybsSoapClient;
+use Pinaadrian\Cybersource\CybsSoapClient;
 
 $xml = "";
 // Populate $xml
@@ -89,7 +89,7 @@ $client->runTransactionFromXml($xml);
 In order to run transactions using name-value pairs, make sure to set the value for the WSDL for the NVP transaction processor in ````cybs.ini````. Then use the ````CybsNameValuePairClient```` as so:
 
 ```php
-use Adrianxplay\Cybersource\CybsNameValuePairClient;
+use Pinaadrian\Cybersource\CybsNameValuePairClient;
 
 $client = new CybsNameValuePairClient();
 $request = array();
