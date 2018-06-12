@@ -11,7 +11,7 @@
     ],
     "autoload": {
       "psr-0": {
-        "Adrianxplay\\Cybersource\\": "src"
+        "Pinaadrian\\Cybersource\\": "src"
       }
     },
     "require": {
